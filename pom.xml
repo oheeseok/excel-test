@@ -40,6 +40,19 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId> <!-- xlsx 파일 지원 -->
+            <version>5.2.3</version> <!-- 최신 버전 기준, 필요하면 조정 가능 -->
+        </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.30</version> <!-- 최신 버전 기준 -->
+            <scope>provided</scope>
+        </dependency>
     </dependencies>
 
     <build>
